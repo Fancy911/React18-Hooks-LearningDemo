@@ -1,0 +1,7 @@
+.meals-container {
+    position: absolute;
+    top: 120rem;
+    bottom: 0;
+    overflow: auto; /* 开启滚动条 */
+    padding-bottom: 120rem;
+}

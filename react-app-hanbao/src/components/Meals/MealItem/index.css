@@ -1,0 +1,57 @@
+.meal-item-container {
+    /*开启弹性盒*/
+    display: flex;
+    /*设置辅轴对齐方式*/
+    align-items: center;
+    /*设置外边距*/
+    padding: 30rem 20rem;
+    border-bottom: 1px #f2f2f2 solid;
+}
+
+.meal-item-img-container {
+    width: 280rem;
+    margin-right: 25rem;
+}
+
+.meal-item-img-container-detail {
+    width: 160rem;
+    margin-right: 25rem;
+}
+
+img {
+    width: 100%;
+}
+
+.meal-item-desc-container {
+    flex: auto;
+}
+
+.meal-item-desc-title {
+    font-weight: normal;
+    font-size: 36rem;
+    margin: 0;
+}
+
+.meal-item-desc-detail {
+    margin: 0;
+    color: #bbb;
+    font-size: 24rem;
+    padding-right: 40rem;
+}
+
+.meal-item-desc-price-container {
+    margin-top: 40rem;
+    padding-right: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-item-desc-price-number {
+    font-weight: bold;
+    font-size: 36rem;
+}
+
+.meal-item-desc-price-number::before{
+    content: '￥';
+    font-size: 24rem;
+}

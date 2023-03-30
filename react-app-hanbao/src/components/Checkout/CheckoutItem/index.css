@@ -1,0 +1,40 @@
+.checkout-item {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.checkout-item-img {
+    width: 140rem;
+}
+
+.checkout-item-img img{
+    width: 100%;
+}
+
+.checkout-item-desc {
+    flex: auto;
+    margin-left: 20rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.checkout-item-title {
+    font-size: 24rem;
+}
+
+.checkout-item-priceOuter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-item-price {
+    font-size: 26rem;
+    font-weight: bold;
+}
+
+.checkout-item-price::before {
+    content: '￥';
+    font-weight: normal;
+    font-size: 24rem;
+}

@@ -1,0 +1,39 @@
+.cart-detail-container {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    width: 750rem;
+    max-height: 1200rem;
+    background-color: #fff;
+    bottom: 0;
+    padding-bottom: 120rem;
+
+    /* 左上角和右上角的圆角 */
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.cart-detail-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30rem;
+}
+
+.cart-detail-title {
+    font-weight: bold;
+    font-size: 28rem;
+    margin: 0;
+}
+
+.cart-detail-clear {
+    color: #aaa;
+    font-size: 24rem;
+}
+
+.cart-detail-clear span{
+    margin-left: 12rem;
+}
+
+.cart-detail-meallist {
+    overflow: auto; /* 滚动条 */
+}

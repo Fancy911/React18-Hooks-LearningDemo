@@ -1,0 +1,28 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+}
+
+.counter-sub-btn,
+.counter-add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FCBF49;
+    width: 36rem;
+    height: 36rem;
+    border-radius: 50%;
+    font-size: 28rem;
+    padding: 0;
+}
+
+.counter-sub-btn {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.counter-amount {
+    font-size: 32rem;
+    margin: 0 5px;
+}
